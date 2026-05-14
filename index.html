@@ -303,7 +303,7 @@
     }
     function mediaFor(p, cls=''){ return p.image ? `<img src="${p.image}" alt="${p.name}" loading="lazy" class="${cls}">` : svgFor(p.category, p.color, p.stone); }
     function cardMediaFor(p){
-      if(p.image && p.modelImage){ return `<img src="${p.image}" alt="${p.name} product photo" loading="lazy" class="main-img"><img src="${p.modelImage}" alt="${p.name} model wearing photo" loading="lazy" class="wear-img"><span class="wear-label">Wear View</span>`; }
+      if(p.image && p.modelImage){ return `<img src="${p.image}" alt="${p.name} product photo" loading="lazy" class="main-img"><img src="${p.modelImage}" alt="${p.name} model wearing photo" loading="lazy" class="wear-img">`; }
       return mediaFor(p);
     }
     function galleryFor(p){
