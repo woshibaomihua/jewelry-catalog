@@ -8,7 +8,7 @@
   <style>
     :root{
       --ivory:#f8f4ed;
-      --paper:#fffdf9;
+       --paper:#f2ebe1;
       --ink:#1f1d1a;
       --muted:#7b746c;
       --line:#e7ddd0;
@@ -70,8 +70,8 @@
     .hero-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:50px}
     .stat{border-top:1px solid var(--line);padding-top:18px;color:var(--muted);font-size:13px;line-height:1.45}
     .stat strong{display:block;color:var(--ink);font-size:25px;font-family:Georgia,serif;font-weight:400;margin-bottom:3px}
-    .hero-visual{position:relative;border-radius:var(--radius);overflow:hidden;background:linear-gradient(135deg,#e9dfd2,#f9f3eb);border:1px solid var(--line);box-shadow:var(--shadow);min-height:540px}
-    .hero-visual:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 60% 35%, rgba(255,255,255,.8), transparent 34%), radial-gradient(circle at 28% 66%, rgba(179,145,88,.18), transparent 28%)}
+    .hero-visual{position:relative;border-radius:var(--radius);overflow:hidden;background:#f2ebe1;border:1px solid var(--line);box-shadow:var(--shadow);min-height:540px}
+    /* .hero-visual:before removed for clear image */
     .hero-card{position:absolute;inset:42px;border-radius:28px;background:rgba(255,253,249,.48);border:1px solid rgba(255,255,255,.68);display:grid;place-items:center;overflow:hidden}
     .hero-jewel{width:min(560px,88%);aspect-ratio:1/1;position:relative;filter:drop-shadow(0 28px 36px rgba(45,35,20,.16))}
     .hero-jewel .ring{position:absolute;inset:20%;border:15px solid #d6b46e;border-radius:50%;background:transparent;box-shadow: inset 0 0 0 1px rgba(255,255,255,.5),0 0 0 1px rgba(120,90,35,.15)}
@@ -134,8 +134,8 @@
     <section class="container hero">
       <div class="hero-copy">
         <div>
-          <div class="eyebrow">Fine Jewelry Digital Catalog</div>
-          <h1 class="serif">Minimal luxury, made for wholesale.</h1>
+          <div class="eyebrow">Aurelia Jewelry</div>
+          <h1 class="serif">Modern Elegance, Timeless Shine</h1>
           <p>一个适合珠宝外贸、OEM/ODM、品牌定制客户的在线产品目录。高级极简视觉 + 商品筛选 + 白底主图/模特佩戴图切换 + 询盘篮 + PDF目录下载，适合用于独立站、展会、客户开发和国际站外链承接。</p>
           <div class="hero-actions">
             <a class="primary-btn" href="#shop">Explore Collection</a>
@@ -149,7 +149,7 @@
         </div>
       </div>
       <div class="hero-visual" aria-label="Jewelry hero image">
-        <div class="hero-card"><div class="hero-jewel"><span class="ring"></span><span class="gem"></span></div></div>
+        <img src="https://sc01.alicdn.com/kf/A3aeae13e29ee4beeb6f776a22ce7cbb1q.png" alt="Aurelia Jewelry Banner" style="width:100%;height:100%;object-fit:cover;object-position:left;">
         <div class="hero-floating"><strong>Built for inquiry conversion</strong><span>客户可筛选款式、加入询盘篮，并一次性提交多个SKU需求。</span></div>
       </div>
     </section>
